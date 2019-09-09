@@ -1,0 +1,161 @@
+
+h1{
+  padding:0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h2{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+select{
+  height:3em;
+  width: 15em;
+  background-color: #E8F0FE;
+}
+
+option{
+  font-family: 'Dosis', sans-serif;
+}
+
+input{
+  height: 4em;
+  width: 16em;
+  border: 0.1em solid #868D97;
+  border-radius: 0.4em;
+}
+
+input[type=text] {
+  color: #868D97;
+  padding: 0.5em;
+  background-color: #E8F0FE;
+}
+
+input[type=password] {
+  color: #868D97;
+  background-color: #E8F0FE;
+  padding: 0.5em;
+}
+
+label{
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3em;
+  color: #022A5C;
+}
+header{
+  background-color: white;
+  height:10.5em;
+}
+
+header img{
+  padding: 0.9em;
+  width: 30em;
+}
+
+header h1{
+  font-size: 2.9em;
+}
+
+header h2{
+  font-size: 1em;
+  float:right;
+}
+
+footer{
+  height: 6em;
+  background-color: #022A5C;
+  margin-bottom: 0px;
+}
+
+footer p{
+  padding: 1.9em;
+  font-size: 1.2em;
+  color: #E8F0FE;
+  float: right;
+}
+
+footer img{
+  width: 3em;
+  padding: 1.5em;
+  padding-right: 0;
+  float: left;
+}
+
+.error{
+  font-family: 'Dosis', sans-serif;
+  padding: 0.5px;
+  font-size: 0.7em;
+  color: red;
+}
+
+.formBox{
+  background-color: white;
+  padding: 2em;
+}
+
+.textWrapper{
+  padding: 3em;
+  float: right;
+  color:#868D97;
+}
+
+.bar{
+  height: 6em;
+  background-color: #022A5C;
+  text-align: center;
+  color: #E8F0FE;
+}
+
+.bar h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5em;
+  padding: 0.5em;
+  font-style: oblique;
+}
+
+.quercus{
+  font-size: 1.2em;
+  padding: 1.9em;
+  padding-left: 1em;
+  color: white;
+  float: left;
+}
+
+.container{
+  background-color: #E5E9EE;
+  color: #868D97;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 20em;
+  padding: 1em;
+  font-size: 1em;
+  border-radius: 0.4em;
+  border-top: 1em solid #25A1CB;
+}
+
+.submit{
+  background-color: #25A1CB;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  border-radius: 0.4em;
+  color: white;
+}
+
+.submit:hover{
+  background-color:#2BB5E5;
+  cursor: pointer;
+}
+
+.success{
+  font-family: 'Dosis', sans-serif;
+  padding: 0.5px;
+  font-size: 0.7em;
+  color: green;
+}

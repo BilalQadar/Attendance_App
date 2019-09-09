@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/img/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-database.js"></script>
+    <title> Attendance Tracker </title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/img/math_logo_white.svg" alt="University of Toronto Logo"/>
+      <div class=textWrapper>
+        <h1> Fall MAT301 </h1>
+        <h2> Groups & Symmetries </h2>
+      </div>
+    </header>
+    <div class="bar">
+      <h1> ATTENDANCE TRACKER </h1>
+    </div>
+    <div class="formBox">
+      <div class="container">
+        <form name="attendanceForm" onsubmit="return false">
+          <label> LECTURE SECTION </label><br>
+          <select id="sectionOptions">
+            <option value="None"> --- </option>
+            <option value="LEC 0101">LEC 0101</option>
+            <option value="LEC 0102">LEC 0102</option>
+          </select>
+          <div class="error" id="lectureError"></div><br>
+          <label> STUDENT NUMBER </label> <br>
+          <input type="text" id="studentNum"><br>
+          <div class="error" id="numError"> </div><br>
+          <label> FIRST NAME </label> <br>
+          <input type="text" id="firstname" ><br>
+          <div class="error" id="firstnameError"></div><br>
+          <label> LAST NAME </label><br>
+          <input type="text" id="lastname"><br>
+          <div class="error" id="lastnameError"></div><br>
+          <label> PASSWORD</label><br>
+          <input type="password" id="password"><br>
+          <div class="error" id="passwordError"></div><br>
+          <input class="submit" type="submit" value="SUBMIT" id="submit">
+          <div class="error" id="genericError"></div>
+          <div class="success" id="success"></div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <a href="https://q.utoronto.ca/"><img src="assets/img/quercus.png" alt="quercus"/></a>
+      <a href="https://q.utoronto.ca/"><p class="quercus"> Quercus </p></a>
+      <p> Built by University of Toronto student Bilal Qadar </p>
+    </footer>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
