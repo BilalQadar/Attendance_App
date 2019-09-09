@@ -7,8 +7,8 @@ firebase.initializeApp(firebaseConfig);
 
 document.getElementById("submit").addEventListener("click", function(){
   //Change the password below every week!
-  const password101 = "abc";
-  const password102 = "123";
+  const password101 = "Nice try";
+  const password102 = "Nice try";
   
   var firstname = document.getElementById("firstname").value;
   var lastname = document.getElementById("lastname").value;
